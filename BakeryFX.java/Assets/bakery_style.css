@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;500;600;700&display=swap');
+
+
+/* first page  */
+.root{
+    -fx-font-size: 15px;
+    -fx-font-weight:500;
+    -fx-text-fill: #3F1F0D;
+}
+/* stye for the  main page */
+#bpMain{
+    -fx-font-size: 15px;
+    -fx-background: #F9C83D;
+}
+/* style for buttons */
+.button{
+    -fx-font-size: 15px;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-font-weight:400;
+  
+}
+/* style for the button on hover */
+.button:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+    -fx-font-weight:700;
+}
+
+/* syle for the second page */
+#orderStage {
+    -fx-font-size: 12px;
+    -fx-font-weight:400;
+    -fx-background: #FFF;
+}
+#btnAdd{
+    -fx-font-size: 12px;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-pref-width: 110px;
+    -fx-pref-height: 25px;
+}
+/* style for button on hover */
+#btnAdd:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+}
+/* style for button remove in second page */
+#btnRemove{
+    -fx-font-size: 12px;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px; 
+    -fx-pref-width: 130px;
+    -fx-pref-height: 25px;
+}
+/* style for button remove on hover */
+#btnRemove:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+}
+/* style button Clear  */
+#btnClear{
+    -fx-font-size: 12px;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-pref-width: 110px;
+    -fx-pref-height: 25px;
+}
+/* style for button Clear on hover */
+#btnClear:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+}
+/* style for the label menu  */
+#menu{
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #3F1F0D;
+}
+/* style for the Lavbel Your Order */
+#yourOrder{
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #3F1F0D;
+}
+/* Style for the lable Total */
+#Total{
+    -fx-font-size: 15px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #3F1F0D;
+}
+/* style for the Button Proceed */
+#btnProceed{
+    -fx-font-size: 11pt;
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill: #FFF;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-pref-width: 210px;
+    -fx-pref-height: 50px;
+    -fx-font-weight:400;
+
+}
+/* style for Button Proceed on hover */
+#btnProceed:hover{
+    -fx-background-color: #27150B;
+    -fx-font-weight:700;
+}
+
+/* style for the label Order */
+
+#lblorder{
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #3F1F0D
+}
+/* style for the label Total */
+#total{
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #3F1F0D;
+    
+}
+/* Style for the first label total on the order page */
+#total1{
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #3F1F0D;
+}
+/* style for the confirm button */
+#btnConfirm{
+    -fx-font-size: 11pt;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 20px;
+    -fx-font-weight:400;
+}
+/* style for the Cancel button */
+#btnCancel{
+    -fx-font-size: 11pt;
+    -fx-border-color: #3F1F0D;
+    -fx-background-color: none;
+    -fx-text-fill: #3F1F0D;
+    -fx-border-radius: 100px;
+    -fx-background-radius:100px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 20px;
+    -fx-font-weight:400;
+}
+/* style for the Cancel button on hover */
+#btnConfirm:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+    -fx-font-weight:700;
+}
+/* Style for the Cancel button on hover */
+#btnCancel:hover{
+    -fx-background-color: #3F1F0D;
+    -fx-text-fill:#FFF;
+    -fx-font-weight:700;
+}
+
+/*  */
+#prog{
+    -fx-pref-width: 400;
+    -fx-background-insets: 100px;
+    -fx-background-radius:100px;
+    -fx-border-radius:100px;
+    -fx-spacing:40px;
+    -fx-accent: #3F1F0D;
+}
